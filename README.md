@@ -9,20 +9,7 @@ A lightweight and secure blog writing backend built using **FastAPI**, with JWT-
 - 🧪 Auto-generated Swagger UI for API testing
 ---
 ## 📁 Project Structure
-Blog_Writing-Using-FastAPI/
-│
-├── main.py # App entry point
-├── database.py # DB connection and session
-├── models.py # SQLAlchemy models
-├── schemas.py # Pydantic models
-├── hashing.py # Password hashing
-├── jwt_token.py # JWT generation
-├── oauth2.py # Authentication logic
-├── routers/ # API route handlers
-├── repository/ # DB query functions
-├── blog.db # SQLite database file
-├── requirements.txt # Project dependencies
-└── .gitignore # Git ignore rules
+<pre> 📂 <b>Blog_Writing-Using-FastAPI/</b> ├── 📄 <b>main.py</b> → App entry point ├── 📄 <b>database.py</b> → DB connection and session management ├── 📄 <b>models.py</b> → SQLAlchemy ORM models ├── 📄 <b>schemas.py</b> → Pydantic data validation models ├── 📄 <b>hashing.py</b> → Password hashing using bcrypt ├── 📄 <b>jwt_token.py</b> → JWT access token generation ├── 📄 <b>oauth2.py</b> → Authentication and user verification ├── 📁 <b>routers/</b> → FastAPI route definitions ├── 📁 <b>repository/</b> → DB access and business logic ├── 📄 <b>blog.db</b> → SQLite database file ├── 📄 <b>requirements.txt</b> → List of Python dependencies └── 📄 <b>.gitignore</b> → Ignored files and folders for Git </pre>
 
 ## 🛠️ Setup Instructions
 ### 1. Clone the Repository
