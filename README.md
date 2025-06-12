@@ -9,7 +9,19 @@ A lightweight and secure blog writing backend built using **FastAPI**, with JWT-
 - 🧪 Auto-generated Swagger UI for API testing
 ---
 ## 📁 Project Structure
-<pre> 📂 <b>Blog_Writing-Using-FastAPI/</b> ├── 📄 <b>main.py</b> → App entry point ├── 📄 <b>database.py</b> → DB connection and session management ├── 📄 <b>models.py</b> → SQLAlchemy ORM models ├── 📄 <b>schemas.py</b> → Pydantic data validation models ├── 📄 <b>hashing.py</b> → Password hashing using bcrypt ├── 📄 <b>jwt_token.py</b> → JWT access token generation ├── 📄 <b>oauth2.py</b> → Authentication and user verification ├── 📁 <b>routers/</b> → FastAPI route definitions ├── 📁 <b>repository/</b> → DB access and business logic ├── 📄 <b>blog.db</b> → SQLite database file ├── 📄 <b>requirements.txt</b> → List of Python dependencies └── 📄 <b>.gitignore</b> → Ignored files and folders for Git </pre>
+<pre> 📂 <b>Blog_Writing-Using-FastAPI/</b> <br>
+  ├── 📄 <b>main.py</b> → App entry point <br>
+  ├── 📄 <b>database.py</b> → DB connection and session management <br>
+  ├── 📄 <b>models.py</b> → SQLAlchemy ORM models <br>
+  ├── 📄 <b>schemas.py</b> → Pydantic data validation models <br>
+  ├── 📄 <b>hashing.py</b> → Password hashing using bcrypt <br>
+  ├── 📄 <b>jwt_token.py</b> → JWT access token generation <br>
+  ├── 📄 <b>oauth2.py</b> → Authentication and user verification <br>
+  ├── 📁 <b>routers/</b> → FastAPI route definitions <br>
+  ├── 📁 <b>repository/</b> → DB access and business logic <br>
+  ├── 📄 <b>blog.db</b> → SQLite database file <br>
+  ├── 📄 <b>requirements.txt</b> → List of Python dependencies <br>
+  └── 📄 <b>.gitignore</b> → Ignored files and folders for Git </pre> <br>
 
 ## 🛠️ Setup Instructions
 ### 1. Clone the Repository
