@@ -30,18 +30,18 @@ git clone https://github.com/YashVS15112004/Blog_Writing-Using-FastAPI.git
 cd Blog_Writing-Using-FastAPI
 ```
 ### 2. Create and Activate Virtual Environment
-You can use a shared .venv outside this folder, or create one here:
-python -m venv .venv
-.venv\Scripts\activate  # On Windows
-# or
+You can use a shared .venv outside this folder, or create one here: <br>
+python -m venv .venv <br>
+.venv\Scripts\activate  # On Windows <br>
+# or <br>
 source .venv/bin/activate  # On macOS/Linux
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
 
 ### 4. Running the Application
-Start the FastAPI server using Uvicorn:
-uvicorn main:app --reload
-Now, open your browser and visit:
-Swagger UI: http://127.0.0.1:8000/docs
+Start the FastAPI server using Uvicorn: <br>
+uvicorn main:app --reload <br>
+Now, open your browser and visit: <br>
+Swagger UI: http://127.0.0.1:8000/docs <br>
 ReDoc: http://127.0.0.1:8000/redoc
