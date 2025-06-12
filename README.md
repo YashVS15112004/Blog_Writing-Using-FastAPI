@@ -33,7 +33,6 @@ cd Blog_Writing-Using-FastAPI
 You can use a shared .venv outside this folder, or create one here: <br>
 python -m venv .venv <br>
 .venv\Scripts\activate  # On Windows <br>
-# or
 source .venv/bin/activate  # On macOS/Linux
 
 ### 3. Install Dependencies
